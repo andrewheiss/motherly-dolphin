@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*-- scss:defaults --*/
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+// Tam colors from MetBrewer R package (https://github.com/BlakeRMills/MetBrewer#tam)
+// #> MetBrewer::met.brewer("Tam")
+//
+// Supplemented with:
+// - Blue and green from the Signac palette: MetBrewer::met.brewer("Signac")
+// - Teal and cyan from https://clrs.cc/
+$blue:   #1f6e9c !default;  // Signac
+$indigo: #341648 !default;  // Tam
+$purple: #62205f !default;  // Tam
+$pink:   #9f2d55 !default;  // Tam
+$red:    #bb292c !default;  // Tam
+$orange: #ef8737 !default;  // Tam
+$yellow: #ffd353 !default;  // Tam
+$green:  #2b9b81 !default;  // Signac
+$teal:   #39CCCC !default;  // clrs.cc
+$cyan:   #7FDBFF !default;  // clrs.cc
+
+$primary:       $blue !default;
+$secondary:     $white !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $orange !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-900 !default;
+
+$font-family-sans-serif:      IBM Plex Sans, sans-serif !default;
+$font-family-serif:           IBM Plex Sans, sans-serif !default;  /* Not actually a serif font but whatever */
+
+$font-size-base:              1rem !default;
+$headings-font-weight:        700 !default;
+
+$breadcrumb-padding-x:        0 !default;
+$breadcrumb-padding-y:        0 !default;
+$breadcrumb-divider:          quote(" /");
+
+
+
+/*-- scss:rules --*/
+
+// ul,
+// ol {
+//   font-family: $font-family-serif;
+// }
+
+pre.sourceCode {
+  font-size: 0.675em;
+}
+
+.quarto-title-breadcrumbs {
+  .breadcrumb {
+    border: 0;
+    margin-bottom: 2rem;
+    box-shadow: none;
+    border-bottom: $gray-300 1px solid;
+    
+    .breadcrumb-item {
+      padding-top: 0;
+      padding-right: 0.75em;
+    }
+    
+    .breadcrumb-item + .breadcrumb-item::before {
+      padding-right: 0.75em;
+    }
+  }
+}
+
+.table {
+  box-shadow: none;
+}
+
+// Create a temporary no-stripe class for gt tables 
+.no-stripe .gt_table tr.odd {
+  --bs-table-striped-bg: transparent;
+}
+
+// Temporarily hide the middle div since it has unmodifiable GitHub links as of Quarto 1.3.something: https://github.com/quarto-dev/quarto-cli/issues/5283
+.nav-footer-center {
+  display: none;
+}
+
+// Footer stuff
+.nav-footer-left {
+  text-align: left;
+}
+
+.nav-footer-right {
+  text-align: right;
+}

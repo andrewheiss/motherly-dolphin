@@ -1,0 +1,9 @@
+---
+title: "Presentations"
+listing: grid
+date-format: long
+format:
+  html:
+    code-tools: false
+    toc: false
+---

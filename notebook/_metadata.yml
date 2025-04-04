@@ -1,0 +1,10 @@
+format:
+  html:
+    shift-heading-level-by: 1
+    fig-format: retina
+    knitr:
+      opts_chunk:
+        collapse: true
+        dev: "ragg_png"
+        dpi: 300
+        fig.align: center

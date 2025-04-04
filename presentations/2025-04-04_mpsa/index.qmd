@@ -1,0 +1,44 @@
+---
+title: "Midwest Political Science Association"
+date: 2025-04-04
+toc: true
+abstract: |
+  Annual conference of the Midwest Political Science Association (MPSA); Chicago
+abstract-title: "Location"
+published-title: "Presented"
+image: first-slide.png
+page-layout: full
+---
+
+## Presentation
+
+<div class="ratio ratio-16x9">
+<iframe class="slide-deck" src="https://docs.google.com/presentation/d/e/2PACX-1vTBLMkudKsSD7aptvto23Wxxmr5fNwI5RdtOyXyH_x5NkWkts2AFhhxbEOH-XLZfooBKabp9FowQZpn/embed?start=false&loop=false&delayms=3000" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+
+
+## Proposal
+
+### Title
+
+*(138 characters; 250 limit)*
+
+Balancing burden and transparency: The effect of reduced Form 990-EZ reporting requirements on nonprofit financial health and public trust
+
+### Brief Overview
+
+*(247 characters; 250 limit)*
+
+We explore how reduced IRS reporting requirements impact nonprofit financial health and public trust using a regression discontinuity design with IRS income and asset cutoffs and provide causal insights into administrative burden and transparency.
+
+### Keywords
+
+*(100 characters; 250 limit)*
+
+Nonprofit policy, Nonprofit transparency, Nonprofit finances, Public trust, Regression discontinuity
+
+### Abstract
+
+*(1,339 characters; 1,500 limit)*
+
+Given their public-oriented missions, nonprofit organizations exchange a degree of privacy for tax exemption. Nonprofits must file IRS Form 990 annually, disclosing detailed information about revenue, expenditures, executive compensation, and other organizational details. These disclosures enhance public trust of the nonprofit sector and provide an accountability for potential donors. To reduce administrative burden, the IRS offers a simplified Form 990-EZ with minimal reporting requirements for nonprofits with less than $500,000 in assets and less than $200,000 in revenue. While simplified reporting can help smaller organizations grow and develop, it may also reduce transparency and accountability by limiting public disclosure. In this paper we use public IRS 990 and 990-EZ data to explore the causal effect of reduced reporting requirements on (1) nonprofit financial health and (2) public trust in nonprofits. We employ a regression discontinuity design based on IRS asset and revenue cutoffs and examine differences in outcomes for nonprofits near each cutoff, which provides us with plausible causal explanations. Our findings have important implications for theories of nonprofit accountability and public disclosure, as well as practices like trust-based grantmaking and participatory philanthropy for smaller nonprofits.

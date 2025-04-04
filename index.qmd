@@ -1,0 +1,24 @@
+---
+title: "How Does Reduced Reporting Burden in 990-EZ Impact Nonprofits' Financial Health? A Regression Discontinuity Design"
+author:
+- name: Andrew Heiss
+  affiliation: Georgia State University
+  email: aheiss@gsu.edu
+  orcid: 0000-0002-3948-3914
+- name: Meng Ye
+  affiliation: Georgia State University
+  email: mye2@student.gsu.edu
+  orcid: 0000-0002-6552-8338
+format:
+  html:
+    code-tools: false
+    toc: false
+---
+
+## Abstract
+
+Given their public-oriented missions, nonprofit organizations exchange a degree of privacy for tax exemption. Nonprofits must file IRS Form 990 annually, disclosing detailed information about revenue, expenditures, executive compensation, and other organizational details. These disclosures enhance public trust of the nonprofit sector and provide an accountability for potential donors. To reduce administrative burden, the IRS offers a simplified Form 990-EZ with minimal reporting requirements for nonprofits with less than $500,000 in assets and less than $200,000 in revenue. While simplified reporting can help smaller organizations grow and develop, it may also reduce transparency and accountability by limiting public disclosure. In this paper we use public IRS 990 and 990-EZ data to explore the causal effect of reduced reporting requirements on (1) nonprofit financial health and (2) public trust in nonprofits. We employ a regression discontinuity design based on IRS asset and revenue cutoffs and examine differences in outcomes for nonprofits near each cutoff, which provides us with plausible causal explanations. Our findings have important implications for theories of nonprofit accountability and public disclosure, as well as practices like trust-based grantmaking and participatory philanthropy for smaller nonprofits.
+
+## Code
+
+All the raw code and data for this paper is available in a [GitHub repository](https://github.com/andrewheiss/motherly-dolphin).
